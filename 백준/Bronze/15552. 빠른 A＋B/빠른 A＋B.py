@@ -1,0 +1,13 @@
+import sys
+
+input = sys.stdin.readline
+
+T = int(input())
+arr = []
+
+for i in range(T):
+    A, B = map(int, input().split())
+    arr.append(A + B)
+
+for i in range(T):
+    print(arr[i])
